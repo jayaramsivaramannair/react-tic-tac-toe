@@ -1,7 +1,9 @@
+import Board from './components/Board'
+
 function App() {
   return (
     <div className="App">
-      Tic Tac Toe in React
+      <Board />
     </div>
   );
 }
