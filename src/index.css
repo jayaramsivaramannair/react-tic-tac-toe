@@ -43,3 +43,31 @@ body {
   border-radius: 50px;
   cursor: pointer;
 }
+
+.options {
+  display: grid;
+  grid-template-columns: repeat(2, 300px);
+  font-size: 60px;
+}
+
+.option-x:hover {
+  border: 3px dashed aliceblue;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.option-o:hover {
+  border: 3px dashed aliceblue;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.go-back-button:hover {
+  border: 3px dashed aliceblue;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+h3 {
+  font-size: 45px;
+}
